@@ -111,6 +111,9 @@ class Mole:
         y2 = self.y
 
         # (mouse_x,mouse_y)が上記領域内であるかどうかを判定
+
+# C0B21032 大和　蓮　追加機能  
+
         if x1 <= mouse_x and x2 >= mouse_x:
             if y1 <= mouse_y and y2 >= mouse_y:
 
