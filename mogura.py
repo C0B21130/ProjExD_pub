@@ -416,7 +416,8 @@ class WhackaMole:
 
 
         a = random.randint(1,2)
-        if now_point == -100:
+        p = [-100, -200, -300, -400]
+        if now_point == p:
             if a == 1:
                 sound = pg.mixer.Sound("fig/ぺカリ音.mp3")
                 sound.play()
