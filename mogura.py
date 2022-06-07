@@ -418,8 +418,8 @@ class WhackaMole:
             exit()
             
 
-
-        a = random.randint(1,2)
+    # C0B21016 石井悠大 追加機能
+        a = random.randint(1,2)  
         if now_point == -100:
             if a == 1:
                 sound = pg.mixer.Sound("fig/ぺカリ音.mp3")
