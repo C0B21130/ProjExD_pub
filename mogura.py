@@ -126,6 +126,7 @@ class Mole:
 
 class WhackaMole:
     #ゲームを実装してから終了するまで音楽が流れ続ける
+    #C0B21122 仲村翼
     mixer.init()
     mixer.music.load("fig/bg_bgm.mp3")
     mixer.music.play(-1)
