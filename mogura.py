@@ -257,6 +257,8 @@ class WhackaMole:
             self.canvas.tag_bind(figure, "<ButtonPress>", self.onClick)
     
 
+
+        # C0B21046 金子 空　追加機能100点になったら敵変化
     def createMoles2(self):
         '''モグラを作成して表示する'''
 
