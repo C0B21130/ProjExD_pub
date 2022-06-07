@@ -414,7 +414,8 @@ class WhackaMole:
 
     # C0B21016 石井悠大 追加機能
         a = random.randint(1,2)  
-        if now_point == -100:
+        P = [-100,-200,-300,-400]
+        if now_point in P:
             if a == 1:
                 sound = pg.mixer.Sound("fig/ぺカリ音.mp3")
                 sound.play()
